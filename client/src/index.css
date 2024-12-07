@@ -1,0 +1,173 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    ;
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: 2px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    
+  }
+  
+  
+  
+  
+  /* Balance */
+  .balance-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color:white;
+  }
+  
+
+  
+
+ 
+  
+  /* Stats */
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 48%;
+    padding: 7px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h4 {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  
+  .card p {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .expense {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    color: red;
+  }
+  
+  .income {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    color:#FFB70D;
+  }
+  
+  /* Form */
+  .form {
+    margin-bottom: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px); 
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .submit-button:hover {
+    
+    background-color:lightsteelblue;
+  }
+  
+  /* Transactions */
+  .list-container {
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .transaction-list {
+    list-style: none;
+    padding: 0;
+    max-height:100px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 4px;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
+  
